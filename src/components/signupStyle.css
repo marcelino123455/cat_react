@@ -1,0 +1,126 @@
+:root {
+    --color1: #781d37; 
+    --color2: #a12b48;
+    --color3: #e04362;
+    --color4: #ff7289;
+    --color5: #ffa9b5;
+    --color6: #ffe2e6;
+    --color7: white;
+}
+*{
+
+}
+
+.signupStyle{
+    margin-top: 90px;
+
+    max-width: 600px;
+    margin: 0 auto; /* Alinear el formulario al centro */
+    border: 1px solid #ccc; /* Añadir un borde al formulario */
+    padding: 20px; /* Añadir espacio interno al formulario */
+    border-radius: 5px; /* Añadir bordes redondeados al formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadir una sombra al formulario */
+    background-color: var(--color5);
+        
+      
+}
+
+
+#button-send{
+    background-color: var(--color1);
+    
+
+}
+
+#button-send:active{
+    background-color: var(--color1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/* Estilo para el checkbox cuando está seleccionado */
+/* Estilo para el borde del checkbox cuando está seleccionado */
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--color1); /* Color de fondo cuando está seleccionado */
+    border-color: var(--color1); /* Color del borde cuando está seleccionado */
+}
+.ant-checkbox-checked:hover  .ant-checkbox-inner {
+    background-color: red; /* Color de fondo cuando está seleccionado */
+    border-color: var(--color1); /* Color del borde cuando está seleccionado */
+}
+
+/* Estilo para el checkbox al pasar el cursor */
+.ant-checkbox-wrapper:hover .ant-checkbox-inner {
+    background-color: red; /* Color de fondo al pasar el cursor */
+    border-color: #ccc; /* Color del borde al pasar el cursor */
+}
+
+/* Estilo para el borde del checkbox cuando está deshabilitado */
+.ant-checkbox-wrapper-disabled {
+    border-color: var(--color6); /* Color del borde cuando está deshabilitado */
+}
+
+/* Estilo para el checkbox cuando está deshabilitado */
+.ant-checkbox-wrapper-disabled .ant-checkbox-inner {
+    background-color: var(--color6); /* Color de fondo cuando está deshabilitado */
+    border-color: var(--color6); /* Color del borde cuando está deshabilitado */
+}
+
+
+
+.input-input{
+    border-bottom: 1px solid var(--color1);
+
+    background-color: var(--color6);
+
+}
+
+.input-input:focus  {
+    border: 1px solid var(--color1);
+    background-color: var(--color6);
+
+}
+.input-input:hover{
+    border: 1px solid var(--color1);
+    background-color: var(--color6);
+
+}
+
+/* .signupStyle input[type="password"]{
+    border: 0px solid var(--color1);
+    background-color: var(--color6);
+
+}
+.signupStyle input[type="password"]:focus{
+    border: 3px solid var(--color1);
+    background-color: var(--color6);
+
+}
+
+.signupStyle input[type="password"]:hover{
+    border: 3px solid var(--color1);
+    background-color: var(--color6);
+
+} */
+
+.password-input{
+    border-bottom: 1px solid var(--color1);
+    background-color: var(--color6);
+
+
+}
+
+.password-input:hover{
+    border: 1px solid var(--color1);
+    background-color: var(--color6);
+
+
+}
+.password-input:focus{
+    border: 1px solid var(--color1);
+    background-color: var(--color6);
+
+
+}
+

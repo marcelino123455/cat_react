@@ -1,0 +1,57 @@
+.cat-response-container {
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition-timing-function: ease;
+    animation: example 3s;
+    animation-fill-mode: forwards;
+    position:absolute;
+    opacity: 1;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    border: 1px solid rgb(173, 81, 201);
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+
+
+  }
+  
+  .message {
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-left: 9px;
+  }
+  
+  .cat-image {
+    width: 50px;
+    margin-left: 40px;
+  }
+  
+  @keyframes example {
+    0%  {
+      opacity: 0.2;
+    }
+    50%  {
+    opacity: 1;
+      
+    }
+    95%  {
+        opacity: 1;
+          
+        }
+
+    100%  {
+        opacity: 1;
+        /* display: none; */
+        /* width: 0;   */
+        }
+  }
