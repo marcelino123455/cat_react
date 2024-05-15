@@ -8,14 +8,14 @@ import Pruebas from './components/Pruebas';
 import Signup from './components/Signup';
 import SubirArchivo from './components/SubirArchivo';
 // import Archivo from './components/Archivos2';
-
+import Archivos3 from './components/Archivos3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Pruebas></Pruebas> */}
     <Signup></Signup>
-    {/* <Archivo></Archivo> */}
+    <Archivos3></Archivos3>
     {/* <SubirArchivo></SubirArchivo> */}
     <p>Learn lore wernfeofnerio</p>
 
